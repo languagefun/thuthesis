@@ -1,0 +1,92 @@
+\documentclass{article}
+\usepackage{epic}
+\usepackage{amsmath}
+\newtheorem{defi}{Definition}
+
+\parindent=0pt
+\begin{document}
+\unitlength=1mm
+
+
+\begin{defi}
+Let $f$ be continuous on the half-open interval $[a, b)$ and suppose
+$\lim_{x\rightarrow b^-}|f(x)|=\infty$. Then,
+\[
+\int_a^bf(x)dx=\lim_{t\rightarrow b^-}\int_a^tf(x)dx
+\]
+provided this limit exists and is finite, in which case we say the
+integral converges. Otherwise, we say it diverges.
+\end{defi}
+
+\begin{picture}(80, 60)
+\multiput(5, 0)(5, 0){15}{\line(0, 1){60}} % 畫 15 條直線，每隔 5mm 一條
+\multiput(0, 5)(0, 5){11}{\line(1, 0){80}} % 畫 11 條橫線，每隔 5mm 一條
+\thicklines
+\put(0, 0){\vector(0, 1){60}} % 畫 y 軸
+\put(0, 0){\vector(1, 0){80}} % 畫 x 軸
+\put(0, 0){\circle*{1}} % 畫圓點，實心粗點
+\put(-5, -5){$O(0, 0)$} % 標上原點的座標
+\put(-5, 60){$y$} % 標上 y 軸字樣
+\put(80, -5){$x$} % 標上 x 軸字樣
+\end{picture}
+\[
+\frac{\frac{\displaystyle a}{\displaystyle x-y}+
+\frac{\displaystyle b}{\displaystyle x+y}}
+{\frac{\displaystyle x-y}{\displaystyle x+y}+
+\frac{\displaystyle a-b}{\displaystyle a+b}}
+\]
+\[
+\lim_{n \to \infty}\sum_{i=1}^n{\frac{1}{n}}\sin\frac{k}{n}
+\]
+
+
+\[
+g(x,y) = \left\{\begin{array}{ll}
+f(x,y), & \mbox{if $x<y$} \\ % 文字的部份要用 \mbox
+f(y,x), & \mbox{if $x>y$} \\ % 包住，讓他使用正常字體
+0, & \mbox{otherwise.}
+\end{array} \right.
+\]
+
+\[
+A =
+\begin{pmatrix} % 使用小括號
+t_{11} & t_{12} & t_{13} \\
+t_{21} & t_{22} & t_{23} \\
+t_{31} & t_{32} & t_{33}
+\end{pmatrix}
+\]
+
+\begin{subequations} % 讓編號同數，但以英文小寫為子編號
+\begin{align} % 韓信點兵，同餘方程式
+x & \equiv 2 \pmod 3 \\ % 三三數之剩二
+x & \equiv 3 \pmod 5 \\ % 五五數之剩三
+x & \equiv 2 \pmod 7 % 七七數之剩二
+\end{align}
+\end{subequations}
+
+aaaaaaaaaaaaaaa\cite{brumley:2011}
+aaaaaaaaaaaaaaa\cite{cha:2010:nsdi}
+helloworld\cite{jang:2012}
+
+% bbbbbbbbbbbbbbb\cite[1986]{KDEm} 
+%\begin{thebibliography}{KDE} % 參考文獻中印出的編號最寬為三個字母寬
+%\bibitem{KDEt} Knuth, D.E., \textit{The \TeX},
+%Reading, Massachusetts: Addison-Wesley, 1989.
+%\bibitem[KDE]{KDEm} Knuth, D.E., \textit{The MFbook},
+%Reading, Massachusetts: Addison-Wesley, 1986.
+%\end{thebibliography}
+
+%\begin{thebibliography}{}
+
+\bibliographystyle{plain}
+\bibliography{djb-security}{}
+
+
+\newblock Gde3: the third evolution step of generalized differential evolution.
+\newblock In {\em IEEE Congress on Evolutionary Computation}, pages 443--450,
+  2005.
+
+%\end{thebibliography}
+
+\end{document} 
