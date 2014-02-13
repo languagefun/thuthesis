@@ -14,10 +14,8 @@ ThuThesis为 **T**sing<b>hu</b>a University **Thesis** LaTeX Template之缩写�
 # Download
 * ThuThesis已经上传至[CTAN](http://www.ctan.org/tex-archive/macros/latex/contrib/thuthesis)，新的TeX发行包中自带ThuThesis。
 * [Google Code](http://code.google.com/p/thuthesis/)提供各版本以及辅助文件的镜像。
-* 如果要使用最新版本，请到[GitHub](http://github.com/xueruini/thuthesis)相关分支下载。
 
 # Mailing List
-* **推荐**使用[GitHub Issues](http://github.com/xueruini/thuthesis/issues)。
 * [ThuThesis@Google Groups](http://groups.google.com/group/thuthesis)
 
 <table style="background: white; border:1px solid #aa0033; font-size: 10pt">
@@ -38,5 +36,7 @@ ThuThesis为 **T**sing<b>hu</b>a University **Thesis** LaTeX Template之缩写�
 
 * 如果不能访问Google Groups，请访问：[ThuThesis@Nabble](http://thuthesis.1048723.n5.nabble.com)
 
-# About me
-[我的个人主页](http://xueruini.myipcn.org)。
+
+example:
+http://edt1023.sayya.org/tex/latex123/latex123.pdf
+http://zzg34b.w3.c361.com/package/reference.htm
